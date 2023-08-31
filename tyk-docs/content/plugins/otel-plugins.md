@@ -16,10 +16,12 @@ By instrumenting your custom plugins with Tyk's OpenTelemetry library, you can g
 - Go v1.19 or higher
 - Gateway instance with OpenTelemetry and DetailedTracing enabled:
 
-```go
+```json
+{
+"detailed_tracing":true
 "opentelemetry": {
-  "enabled": true,
-  "detailed_tracing":true
+  "enabled": true
+	}
 }
 ```
 
