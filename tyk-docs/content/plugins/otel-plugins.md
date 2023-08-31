@@ -18,7 +18,7 @@ By instrumenting your custom plugins with Tyk's OpenTelemetry library, you can g
 
 ```json
 {
-"detailed_tracing":true
+"detailed_tracing":true,
 "opentelemetry": {
   "enabled": true
 	}
