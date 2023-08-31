@@ -9,7 +9,7 @@ aliases:
   - "/plugins/otel-plugins"
 ---
 
-By instrumenting your custom plugins with Tyk's OpenTelemetry library, you can gain additional insights into custom plugin behaviour like time spent and exit status. Read on to see some examples of creating span and setting attributes for your custom plugins.
+By instrumenting your custom plugins with Tyk's OpenTelemetry library, you can gain additional insights into custom plugin behaviour like a more granular way of viewing the time spent by each function and the exit status. Read on to see some examples of creating span and setting attributes for your custom plugins.
 
 ## Prerequisites
 
