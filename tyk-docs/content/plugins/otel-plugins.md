@@ -34,7 +34,7 @@ $ go get github.com/TykTechnologies/opentelemetry
 
 ## Create a new span from the request context
 
-`trace.NewSpanFromContext()` is a function that helps you create a new span from the current request context. When called, it returns two values: a fresh context with the newly created span embedded inside it, and the span itself. This method is particularly useful for tracing the execution of a piece of code within a web request, allowing you to measure and analyze its performance over time.
+`trace.NewSpanFromContext(ctx, tracerName, spanName)` is a function that helps you create a new span from the current request context. When called, it returns two values: a fresh context with the newly created span embedded inside it, and the span itself. This method is particularly useful for tracing the execution of a piece of code within a web request, allowing you to measure and analyze its performance over time.
 
 The function takes three parameters:
 
